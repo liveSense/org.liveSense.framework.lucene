@@ -32,8 +32,8 @@
 	</scm>
 
 	<artifactId>org.liveSense.framework.lucene</artifactId>
-	<packaging>pom</packaging>
-	<version>${jasper.version}_1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+	<version>${lucene.version}_1-SNAPSHOT</version>
 	<name>liveSense :: Framework :: Lucene</name>
 	<description>
 		Reactor POM for Apache Lucene framework
