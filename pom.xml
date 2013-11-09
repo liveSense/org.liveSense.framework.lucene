@@ -23,7 +23,7 @@
 		<groupId>com.github.livesense</groupId>
 		<artifactId>org.liveSense.parent</artifactId>
 		<version>2-SNAPSHOT</version>
-		<relativePath>../org.liveSense.parent</relativePath>
+		<relativePath>..</relativePath>
 	</parent>
 	<scm>
 		<connection>scm:git:git://github.com/liveSense/org.liveSense.service.report.jasper.git</connection>
@@ -33,7 +33,7 @@
 
 	<artifactId>org.liveSense.framework.lucene</artifactId>
     <packaging>pom</packaging>
-	<version>${lucene.version}_1-SNAPSHOT</version>
+	<version>4.0.0_1-SNAPSHOT</version>
 	<name>liveSense :: Framework :: Lucene</name>
 	<description>
 		Reactor POM for Apache Lucene framework

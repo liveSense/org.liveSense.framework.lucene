@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<features name="liveSense-${liveSense.version}-framework-lucene" xmlns="http://karaf.apache.org/xmlns/features/v1.0.0">
+
+	<feature name='liveSense-framework-lucene' version="${liveSense.framework.lucene.version}" description="liveSense Lucene framework">
+		<feature>liveSense-core-apache-commons</feature>
+		<bundle>mvn:com.ibm.icu/icu4j/49.1</bundle>
+        <bundle>mvn:com.github.livesense/lucene-analyzers-common/${liveSense.framework.lucene.version}</bundle>
+        <bundle>mvn:com.github.livesense/lucene-analyzers-icu/${liveSense.framework.lucene.version}</bundle>
+        <bundle>mvn:com.github.livesense/lucene-analyzers-phonetic/${liveSense.framework.lucene.version}</bundle>
+        <bundle>mvn:com.github.livesense/lucene-analyzers-stempel/${liveSense.framework.lucene.version}</bundle>
+        <bundle>mvn:com.github.livesense/lucene-core/${liveSense.framework.lucene.version}</bundle>
+        <bundle>mvn:com.github.livesense/lucene-grouping/${liveSense.framework.lucene.version}</bundle>
+        <bundle>mvn:com.github.livesense/lucene-highlighter/${liveSense.framework.lucene.version}</bundle>
+        <bundle>mvn:com.github.livesense/lucene-memory/${liveSense.framework.lucene.version}</bundle>
+        <bundle>mvn:com.github.livesense/lucene-misc/${liveSense.framework.lucene.version}</bundle>
+        <bundle>mvn:com.github.livesense/lucene-queries/${liveSense.framework.lucene.version}</bundle>
+        <bundle>mvn:com.github.livesense/lucene-queryparser/${liveSense.framework.lucene.version}</bundle>
+        <bundle>mvn:com.github.livesense/lucene-spatial/${liveSense.framework.lucene.version}</bundle>
+        <bundle>mvn:com.github.livesense/lucene-suggest/${liveSense.framework.lucene.version}</bundle>
+    </feature>
+
+</features>

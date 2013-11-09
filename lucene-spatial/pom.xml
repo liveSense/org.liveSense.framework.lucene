@@ -16,7 +16,7 @@
 	<parent>
 		<groupId>com.github.livesense</groupId>
         <artifactId>org.liveSense.framework.lucene</artifactId>
-        <version>${lucene.version}_1-SNAPSHOT</version>
+        <version>4.0.0_1-SNAPSHOT</version>
 		<relativePath>../</relativePath>
 	</parent>
 
