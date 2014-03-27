@@ -26,9 +26,9 @@
 		<relativePath>..</relativePath>
 	</parent>
 	<scm>
-		<connection>scm:git:git://github.com/liveSense/org.liveSense.service.report.jasper.git</connection>
-		<developerConnection>scm:git:git://github.com/liveSense/org.liveSense.service.report.jasper.git</developerConnection>
-		<url>https://github.com/liveSense/org.liveSense.service.report.jasper</url>
+		<connection>scm:git:https://github.com/liveSense/org.liveSense.framework.lucene.git</connection>
+		<developerConnection>scm:git:https://github.com/liveSense/org.liveSense.framework.lucene.git</developerConnection>
+		<url>https://github.com/liveSense/org.liveSense.framework.lucene</url>
 	</scm>
 
 	<artifactId>org.liveSense.framework.lucene</artifactId>
