@@ -1,5 +1,6 @@
-/.settings/
-/target/
-.classpath
-.project
-.settings
+/target
+/.settings
+/.project
+/.classpath
+/nbactions.xml
+*.iml
