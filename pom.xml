@@ -25,7 +25,7 @@
 		<version>1.0.6-SNAPSHOT</version>
 		<relativePath>..</relativePath>
 	</parent>
-    <version>1.0.6-SNAPSHOT</version>
+	<version>1.0.6-SNAPSHOT</version>
 	<scm>
 		<connection>scm:git:https://github.com/liveSense/org.liveSense.framework.lucene.git</connection>
 		<developerConnection>scm:git:https://github.com/liveSense/org.liveSense.framework.lucene.git</developerConnection>
@@ -34,26 +34,36 @@
   </scm>
 
 	<artifactId>org.liveSense.framework.lucene</artifactId>
-    <packaging>pom</packaging>
+	<packaging>pom</packaging>
 	<name>liveSense :: Framework :: Lucene</name>
 	<description>
 		Reactor POM for Apache Lucene framework
 	</description>
-    <modules>
-        <module>lucene-core</module>
-        <module>lucene-analyzers-common</module>
-        <module>lucene-analyzers-icu</module>
-        <module>lucene-analyzers-phonetic</module>
-        <module>lucene-analyzers-stempel</module>
-        <module>lucene-grouping</module>
-        <module>lucene-highlighter</module>
-        <module>lucene-memory</module>
-        <module>lucene-misc</module>
-        <module>lucene-queries</module>
-        <module>lucene-queryparser</module>
-        <module>lucene-spatial</module>
-        <module>lucene-suggest</module>
-    </modules>
+	<modules>
+		<module>lucene-core</module>
+		<module>lucene-codecs</module>
+		<module>lucene-misc</module>
+		<module>lucene-queries</module>
+		<module>lucene-queryparser</module>
+		<module>lucene-spatial</module>
+		<module>lucene-suggest</module>
+		<module>lucene-expressions</module>
+		<module>lucene-facet</module>
+		<module>lucene-join</module>
+		<module>lucene-grouping</module>
+		<module>lucene-highlighter</module>
+		<module>lucene-memory</module>
+		<module>lucene-classification</module>
+<!--		<module>lucene-replicator</module> -->
+		<module>lucene-analyzers-common</module>
+		<module>lucene-analyzers-icu</module>
+		<module>lucene-analyzers-phonetic</module>
+		<module>lucene-analyzers-stempel</module>
+<!--		<module>lucene-analyzers-uima</module>
+        <module>lucene-analyzers-morfologik</module> -->
+		<module>lucene-analyzers-smartcn</module>
+		<module>lucene-analyzers-kuromoji</module>
+	</modules>
 </project>
 
 

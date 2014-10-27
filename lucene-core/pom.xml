@@ -14,8 +14,8 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.github.livesense</groupId>
-        <artifactId>org.liveSense.framework.lucene</artifactId>
-        <version>1.0.6-SNAPSHOT</version>
+		<artifactId>org.liveSense.framework.lucene</artifactId>
+		<version>1.0.6-SNAPSHOT</version>
 		<relativePath>../</relativePath>
 	</parent>
 
@@ -34,14 +34,14 @@
 				<extensions>true</extensions>
 				<configuration>
 					<instructions>
-                        <Bundle-Category>Lucene</Bundle-Category>
-                        <_exportcontents>
+						<Bundle-Category>Lucene</Bundle-Category>
+						<_exportcontents>
 							org.apache.lucene.*;version=${lucene.version}
 						</_exportcontents>
-
 						<Embed-Dependency>
-							lucene-core;inline=*
+							lucene-core;inline=!org/apache/lucene/util/SPIClassIterator.class
 						</Embed-Dependency>
+						<_dsannotations>*</_dsannotations>
 					</instructions>
 				</configuration>
 			</plugin>
@@ -52,6 +52,24 @@
 			<groupId>org.apache.lucene</groupId>
 			<artifactId>lucene-core</artifactId>
 			<version>${lucene.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.osgi</groupId>
+			<artifactId>org.osgi.compendium</artifactId>
+			<version>4.3.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.osgi</groupId>
+			<artifactId>org.osgi.annotation</artifactId>
+			<version>6.0.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.osgi</groupId>
+			<artifactId>org.osgi.core</artifactId>
+			<version>4.3.0</version>
 		</dependency>
 
 	</dependencies>

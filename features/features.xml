@@ -3,21 +3,33 @@
 <features name="liveSense-${liveSense.version}-framework-lucene" xmlns="http://karaf.apache.org/xmlns/features/v1.0.0">
 
 	<feature name='liveSense-framework-lucene' version="${liveSense.framework.lucene.version}" description="liveSense Lucene framework">
-		<feature>liveSense-core-apache-commons</feature>
+		<feature>apache-commons</feature>
 		<bundle>mvn:com.ibm.icu/icu4j/49.1</bundle>
-        <bundle>mvn:com.github.livesense/lucene-analyzers-common/${liveSense.framework.lucene.version}</bundle>
-        <bundle>mvn:com.github.livesense/lucene-analyzers-icu/${liveSense.framework.lucene.version}</bundle>
-        <bundle>mvn:com.github.livesense/lucene-analyzers-phonetic/${liveSense.framework.lucene.version}</bundle>
-        <bundle>mvn:com.github.livesense/lucene-analyzers-stempel/${liveSense.framework.lucene.version}</bundle>
-        <bundle>mvn:com.github.livesense/lucene-core/${liveSense.framework.lucene.version}</bundle>
-        <bundle>mvn:com.github.livesense/lucene-grouping/${liveSense.framework.lucene.version}</bundle>
-        <bundle>mvn:com.github.livesense/lucene-highlighter/${liveSense.framework.lucene.version}</bundle>
-        <bundle>mvn:com.github.livesense/lucene-memory/${liveSense.framework.lucene.version}</bundle>
-        <bundle>mvn:com.github.livesense/lucene-misc/${liveSense.framework.lucene.version}</bundle>
-        <bundle>mvn:com.github.livesense/lucene-queries/${liveSense.framework.lucene.version}</bundle>
-        <bundle>mvn:com.github.livesense/lucene-queryparser/${liveSense.framework.lucene.version}</bundle>
-        <bundle>mvn:com.github.livesense/lucene-spatial/${liveSense.framework.lucene.version}</bundle>
-        <bundle>mvn:com.github.livesense/lucene-suggest/${liveSense.framework.lucene.version}</bundle>
-    </feature>
+		<bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.spatial4j/0.4.1_1</bundle>
+		<bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.antlr/3.5.2_1</bundle>
+		<bundle>mvn:com.github.livesense/lucene-analyzers-common/${liveSense.framework.lucene.version}</bundle>
+		<bundle>mvn:com.github.livesense/lucene-analyzers-icu/${liveSense.framework.lucene.version}</bundle>
+		<bundle>mvn:com.github.livesense/lucene-analyzers-phonetic/${liveSense.framework.lucene.version}</bundle>
+		<bundle>mvn:com.github.livesense/lucene-analyzers-stempel/${liveSense.framework.lucene.version}</bundle>
+		<bundle>mvn:com.github.livesense/lucene-core/${liveSense.framework.lucene.version}</bundle>
+		<bundle>mvn:com.github.livesense/lucene-grouping/${liveSense.framework.lucene.version}</bundle>
+		<bundle>mvn:com.github.livesense/lucene-highlighter/${liveSense.framework.lucene.version}</bundle>
+		<bundle>mvn:com.github.livesense/lucene-memory/${liveSense.framework.lucene.version}</bundle>
+		<bundle>mvn:com.github.livesense/lucene-misc/${liveSense.framework.lucene.version}</bundle>
+		<bundle>mvn:com.github.livesense/lucene-queries/${liveSense.framework.lucene.version}</bundle>
+		<bundle>mvn:com.github.livesense/lucene-queryparser/${liveSense.framework.lucene.version}</bundle>
+		<bundle>mvn:com.github.livesense/lucene-spatial/${liveSense.framework.lucene.version}</bundle>
+		<bundle>mvn:com.github.livesense/lucene-suggest/${liveSense.framework.lucene.version}</bundle>
+		<bundle>mvn:com.github.livesense/lucene-facet/${liveSense.framework.lucene.version}</bundle>
+		<bundle>mvn:com.github.livesense/lucene-expressions/${liveSense.framework.lucene.version}</bundle>
+		<bundle>mvn:com.github.livesense/lucene-join/${liveSense.framework.lucene.version}</bundle>
+		<bundle>mvn:com.github.livesense/lucene-codecs/${liveSense.framework.lucene.version}</bundle>
+<!--        <bundle>mvn:com.github.livesense/lucene-analyzers-uima/${liveSense.framework.lucene.version}</bundle>
+		<bundle>mvn:com.github.livesense/lucene-analyzers-morfologik/${liveSense.framework.lucene.version}</bundle> -->
+		<bundle>mvn:com.github.livesense/lucene-analyzers-smartcn/${liveSense.framework.lucene.version}</bundle>
+		<bundle>mvn:com.github.livesense/lucene-analyzers-kuromoji/${liveSense.framework.lucene.version}</bundle>
+		<bundle>mvn:com.github.livesense/lucene-classification/${liveSense.framework.lucene.version}</bundle>
+<!--		<bundle>mvn:com.github.livesense/lucene-replicator/${liveSense.framework.lucene.version}</bundle> -->
+	</feature>
 
 </features>
