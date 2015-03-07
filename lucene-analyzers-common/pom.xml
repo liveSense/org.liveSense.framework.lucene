@@ -35,8 +35,10 @@
 				<configuration>
 					<instructions>
                         <Bundle-Category>Lucene</Bundle-Category>
+						<SPI-Provider>*</SPI-Provider>
                         <_exportcontents>
-							org.apache.lucene.*;version=${lucene.version}
+							org.apache.lucene.*;version=${lucene.version},
+							org.tartarus.snowball.*;version=${lucene.version}
 						</_exportcontents>
 						<Embed-Dependency>
 							lucene-analyzers-common;inline=true
